@@ -1,0 +1,51 @@
+.keypad {
+    width: 100%;
+    min-width: 16rem;
+    max-width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.keypad .keypad-input {
+    min-height: 2rem;
+    min-width: 12rem;
+    width: 80%;
+    font-size: larger;
+    margin: 0.5rem;
+    background-color: white;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.keypad .buttons {
+    width: 90%;
+    height: 11rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.keypad .buttons button {
+    font-size: larger;
+}
+
+.keypad .error-text{
+    color: red;
+    font-size: larger;
+}

@@ -1,0 +1,52 @@
+.pos {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  
+.pos .grid-container {
+display: grid;
+width: 100%;
+height: 100%;
+justify-content: space-evenly;
+grid-template-columns: 45% 55%;
+grid-template-rows: 80% 20%;
+}
+
+.pos .grid-container .grid-item {
+display: -ms-inline-grid;
+display: -moz-inline-grid;
+width: 100%;
+height: 100%;
+border: 2px solid grey;
+box-sizing: border-box;
+}
+
+.pos .grid-container .cart {
+width: 100%;
+height: 100%;
+}
+
+.pos .grid-container .inventory {
+width: 100%;
+height: 100%;
+}
+
+.pos .grid-container .summary {
+width: 100%;
+height: 100%;
+}
+
+.pos .grid-container .checkout {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+
+.pos .grid-container .checkout .checkout-button {
+flex: 1;
+box-sizing: border-box;
+margin: 1em 0.5% 1em 0.5%;
+}
+  

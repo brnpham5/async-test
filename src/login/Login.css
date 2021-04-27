@@ -1,0 +1,52 @@
+
+.login {
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login .login-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+
+.login .login-input .description{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.login .login-info {
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .login-info .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-info .nav button {
+    font-size: large;
+    margin: 0.25em;
+}
+
+.login .login-info .logo {
+    margin: 1.5rem;
+    max-height: 25rem;
+}
+
+.login .login-info .datetime {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    font-weight: 500;
+    align-items: center;
+}

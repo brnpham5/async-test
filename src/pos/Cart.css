@@ -1,0 +1,112 @@
+
+.cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart .edit {
+    background-color: rgb(231, 231, 231);
+    padding-bottom: 0.5rem;
+}
+
+.cart .edit .item-name {
+    font-size: larger;
+    font-weight: bold;
+    margin-block-start: 0.75rem;
+    margin-block-end: 0.75rem;
+}
+
+.cart .edit .quantity {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.75rem;
+}
+
+.cart .edit button {
+    box-shadow: 0 0.25rem #999;
+}
+
+.cart .edit button:active{
+    background-color: #D3D3D3;
+    box-shadow: 0 0.1rem #666;
+    transform: translateY(0.1rem);
+}
+
+.cart .edit .input {
+    width: 55%;
+    margin: 0.25rem;
+}
+
+
+.cart .edit .plus {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.cart .edit .minus {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.cart .description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart .description .name {
+    flex: 0.75;
+}
+
+.cart .description .id {
+    flex: 0.75;
+}
+
+.cart .description .qty {
+    flex: 0.4;
+}
+
+.cart .description .price {
+    flex: 1;
+}
+
+.cart .basket {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+    font-size: large;
+}
+
+.cart .basket .basket-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart .basket .selected {
+    background-color: lightblue;
+}
+
+.cart .basket .basket-row .name {
+    flex: 0.8;
+}
+
+
+.cart .basket .basket-row .id {
+    flex: 0.8;
+}
+
+.cart .basket .basket-row .qty {
+    flex: 0.35;
+}
+
+
+.cart .basket .basket-row .total {
+    flex: 1;
+}
+
+

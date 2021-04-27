@@ -1,0 +1,25 @@
+
+
+.inventory {
+    display: flex;
+    flex-direction: column;
+}
+
+.inventory .inventory-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+  
+.inventory .inventory-row .item-button {
+    flex: 1;
+    margin: 0.25rem;
+    border-radius: 0.5rem;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.inventory .inventory-row .selected {
+    background-color: rgb(97, 176, 204);
+}

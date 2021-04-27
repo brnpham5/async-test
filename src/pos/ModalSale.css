@@ -1,0 +1,93 @@
+
+.modal-sale {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inactive {
+    display: none;
+}
+
+.modal-sale .modal-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: lightgray;
+    opacity: 50%;
+}
+
+.modal-sale .modal-content {
+    display: flex;
+    min-width: 25rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 0.75rem;
+    border: 0.5rem lightslategray solid;
+    padding: clamp(0.25rem, 3%, 4rem);
+    z-index: 20;
+}
+
+.modal-sale .modal-content .modal-title {
+    font-size: xx-large;
+}
+
+.modal-sale .modal-content .modal-description {
+    font-size: larger;
+}
+
+.modal-sale .modal-content .sale-details {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+    grid-template-rows: 50% 50%;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.modal-sale .modal-content .sale-input {
+    margin-top: 0.5rem;
+
+}
+.modal-sale .modal-content .sale-input button {
+    padding: 0.25rem;
+    font-size: larger;
+    height: 3rem;
+    width: 6rem;
+    margin: 0.25rem;
+}
+
+.modal-sale .modal-content .sale-input .sale-select button {
+    box-shadow: 0.2rem 0.25rem #999;
+}
+
+.modal-sale .modal-content .sale-input .sale-select button:active{
+    background-color: #D3D3D3;
+    box-shadow: 0.05rem 0.1rem #666;
+    transform: translate(0.15rem, 0.2rem);
+}
+
+.modal-sale .modal-content .sale-input .sale-select .selected{
+    background-color: #D3D3D3;
+    box-shadow: 0.05rem 0.1rem #666;
+    transform: translate(0.15rem, 0.2rem);
+}
+
+.modal-sale .modal-content .sale-input .hide {
+    display: none;
+}
+
+.modal-sale .modal-content .cta-buttons button {
+    font-size: larger;
+    padding: 0.5rem;
+    height: 3.75rem;
+    width: 6.5rem;
+    margin: 0.5rem 1rem;
+}
